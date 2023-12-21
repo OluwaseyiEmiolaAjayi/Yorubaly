@@ -10,7 +10,7 @@ export default function Header() {
         <Link to='/'>
         <h1 className='text-sm sm:text-xl flex flex-wrap'>
           <span style={{ color: 'white' }}>YorubalY</span>
-          <span className='text-white'>STATE</span>
+          <span className='text-white'>TOWN</span>
         </h1>
         </Link>
 
