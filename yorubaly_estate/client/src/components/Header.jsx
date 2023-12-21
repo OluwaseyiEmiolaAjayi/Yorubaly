@@ -3,13 +3,13 @@ import {Link} from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header style={{backgroundColor:'#020035'
+    <header style={{backgroundColor:'#01001b'
         }} className='shadow-md'> 
        <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         
         <Link to='/'>
         <h1 className='text-sm sm:text-xl flex flex-wrap'>
-          <span style={{ color: 'white' }}>YorubalY</span>
+          <span className='text-white'>YorubalY</span>
           <span className='text-white'>TOWN</span>
         </h1>
         </Link>
